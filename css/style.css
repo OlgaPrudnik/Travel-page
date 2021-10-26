@@ -1,0 +1,1510 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff'),
+        url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat";
+    background-color: #1B1E22;
+  
+    
+    
+}
+
+.container{
+    max-width: 1130px;
+    margin: auto;
+    
+   
+}
+.objects{
+    position: relative;
+    
+}
+.gradient{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 2.5%, rgba(27, 30, 34, 0.4) 42.42%, #1B1E22 80.67%);
+    height: 1086px;
+ }
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    max-width: 100%;
+    height: 1086px;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+
+ .logo{
+     background-image: url(../images/Logo.png);
+     width: 183px;
+     height: 50px;
+
+ }
+
+ .header-nav{
+    position: absolute;
+    top:33px;
+    left: 111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 41px;
+    padding-bottom: 147px;
+    z-index: 1; 
+    width: 1130px;
+    height: 56px;
+
+ }
+
+ li{
+    display: inline-block;
+    list-style: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+.header-nav li{
+   margin-right: 35px; 
+   
+}
+
+.header-nav li:last-child{
+   margin-right: 0;
+   border:1px solid #FFB800;
+   border-radius: 10px;
+   padding:16px 35px;
+}
+
+ .header-nav .language{
+   position: absolute;
+   left:283px;
+   width:55px;
+   display: flex;
+   justify-content: space-between;
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 16px;
+   color: #FFFFFF;
+ }
+
+ .header-nav .english{
+   color: rgba(196, 196, 196, 0.5);
+   margin-right: 26px;
+   
+ }
+
+.name{
+    max-width: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+ h1{
+     font-weight: 500;
+     font-size: 48px;
+     line-height: 58px;
+     color: rgba(255, 255, 255, 1);
+     position: absolute; 
+     width: 582px;
+     height: 105px;
+     left: 0px;
+     top:241px; 
+     
+ }
+ 
+ .name p{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    position: absolute; 
+    max-width: 582px;
+    height: 105px;
+    left: 0px;
+    top: 388px;
+ } 
+ 
+ .form{
+    position: absolute;
+    width: 500px;
+    top: 169px;
+    height: 360px;
+    left: 742px;
+    border: 1px solid rgba(51, 51, 51, 0.25);
+    color: rgba(229, 229, 229, 1);
+    background: rgba(51, 51, 51, 0.25);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    
+    
+}
+.quick-search{
+    padding: 70px 59px 70px 55px;
+      
+}
+.quick-search p{
+    text-align: start;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-bottom:20px;
+}
+input[type="search"]{
+    width: 356px;
+    height: 35px;
+    left: 0px;
+    top: 263px;
+    background: rgba(51, 51, 51, 0.25);
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    border: 1px solid #ffffff;
+    padding-left:10px;
+ }
+ 
+ .text input[type="search"]{
+    width: 168px;
+    height: 36px;
+    left: 0px;
+    top: 325px;
+    background: rgba(51, 51, 51, 0.25);
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    border: 1px solid #ffffff;
+    
+ }
+ .text .when{
+    margin-right:18px;
+ }
+ .custom{
+    width: 360px;
+    height: 36px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    text-align: start;
+    position: relative;
+    display: inline-block;
+ 
+ }
+ select{
+   outline: none; 
+   appearance: none;
+   text-align: end;
+  
+
+ }
+
+.custom::after{
+   content:"";
+   border-bottom: 1px solid #FFFFFF;
+   border-left:1px solid #FFFFFF;
+   transform: matrix(0.71, -0.72, 0.79, 0.71, 0, 0);
+   position: absolute; 
+   display: block;
+   pointer-events: none;
+   right: 12px; 
+   bottom: 11px;
+   width: 17px;
+   height: 17px;   
+}
+option{
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 16px;
+   color: #FFFFFF;
+   
+}
+ .found{
+    position: absolute;
+    width: 360px;
+    height: 36px;
+    background: #FFB800;
+    border-radius: 4px;
+    text-align: center;
+ }
+ .check{
+    width: 360px;
+    height: 36px;
+    background: #FFB800;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+ }
+ .why{
+    position: absolute;
+    width: 100%;
+    height: 227px;
+    left: 0px;
+    top: 734px;
+ 
+ }
+ .describe{
+    
+    max-width: 264px;
+    height: 168px;
+    display: inline-block;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 20px;
+    margin-bottom: 61px;
+    top:792px;
+ }
+ .why h2{
+    position: absolute;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center; 
+    color: #FFFFFF;
+    left: 0px;
+    bottom:235px;
+    right:70px;
+ }
+ .action{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+   
+ }
+ h2{
+   font-weight: 500;
+   font-size: 34px;
+   line-height: 38px;
+   text-align: center; 
+   color: #FFFFFF;
+   padding-bottom:20px;
+
+ }
+ .action img{
+    width: 360px;
+    height: 216px;
+    border-radius: 4px 4px 0px 0px;
+ }
+ .action h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+ }
+ .action p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+ }
+ .travel{
+    width: 360px;
+    height: 432px;
+    position: relative;
+    margin-bottom: 23px;
+    background: #23282F;
+    border-radius: 4px;
+   
+}
+
+.travel:hover{
+   transform: scale(1.1);
+   border-radius: 7px;
+   transform-origin: center;
+   transition-duration: 1s;
+   transition: all 1s ease-in-out;
+   cursor: pointer;
+   /* background-color: #FFFFFF;
+   color:#333333; */
+
+}
+
+.travel h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 20px 22px 20px 22px;
+}
+
+
+.travel p{
+    padding-left:22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+
+
+
+.travel .price{
+    position:absolute;
+    background-color:rgba(0, 0, 0, .7);
+    bottom: 230px;
+    max-width: 263px;
+    height: 39px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left:0px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.travel .price span{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height:39px;
+    background-color: #FFB800;
+    color:#1B1E22;
+    padding-left: 10px;
+
+}
+
+.travel .price .yellow{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 32px;
+    color:#1B1E22;
+    background-color: #FFB800;
+    width:78px; 
+    height:39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right:10px;
+
+}
+.travel .unicum{
+    padding-left:22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-bottom:15px;
+
+}
+.read{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.view-all{
+    position: absolute;
+    width: 216px;
+    height: 48px;
+    left: 519px;
+    top: 1010px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+button:hover{
+   background-color: #FFB800;
+   color:#000000;
+   cursor: pointer;
+   border-radius: 4px;
+   transition-duration: 1s;
+   transition: all 1s ease-in-out;
+}
+.statistic{
+    position: absolute;
+    width: 1440px;
+    height: 263px;
+    left: 0px;
+    top: 2209px;
+    background-image: url(../images/forest.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+ }
+  .gradient-st{
+   background-color:  rgba(27, 30, 34, 0.78);
+   width: 1440px;
+   height: 263px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ } 
+
+ .about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px; 
+    text-align: center;
+    color: #FFFFFF;
+    
+ }
+ .about p{
+    margin-right: 50px;
+ }
+ .about span{
+    display: block;
+    font-weight: 500;
+    font-size: 78px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFB800;
+    padding-bottom: 34px;;
+ }
+ .blog{
+    position: absolute; 
+    width: 1128px;
+    height: 658px; 
+    left: 0px;
+    top: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   
+    
+ }
+ .blog h2{
+    position: absolute; 
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center; 
+    color: #FFFFFF;
+    margin-bottom: 31px;
+    left: 544px;
+    top:0px;
+  
+ }
+ .places{
+     position: relative;
+ }
+ .places p{
+    position: absolute;
+    height: 118px;
+    left: 32px;
+    top: 49px;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+ }
+ .places .october{
+    position: absolute;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    left: 237px;
+    top: 195px;
+    
+ }
+ .blog .viewall{
+    position: absolute;
+    left: 452px;
+    top: 660px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border:1px solid #FFB800;
+    border-radius: 4px;
+ }
+ button{
+    font-family: "Montserrat";
+    background-color: #1B1E22;
+    width: 216px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border:1px solid #FFB800;
+    
+ }
+
+ .places{
+    background-color:rgba(31, 31, 31, 0.65);
+    max-width: 552px;
+    height: 480px;
+    margin-right: 24px;
+    flex-grow: 2; 
+    border-radius: 4px;
+  
+ }
+
+ .travel-bloger{
+    max-width: 264px;
+    height: 480px;
+    margin-right: 24px;
+    background: #23282F;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+ }
+ .travel-bloger h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 20px;
+ }
+ .travel-bloger p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    padding-top:0px;
+   
+ }
+ .norway{
+    max-width: 264px;
+    height: 480px;
+    background: #23282F;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+ }
+ .norway h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 20px;
+ }
+ .norway p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    padding-top:0px;
+ }
+ .clients{
+    position: absolute;
+    max-width:924px;
+    left: 80px;
+    top:2300px;
+
+ }
+ .avatar{
+    width: 96px;
+    height: 96px;
+    top:60px;
+    left: 432px;
+    position: absolute;
+    background-image: url(../images/Ellipse@2x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 96px 96px;
+
+ }
+ .clients h3{
+    position: absolute;
+    width: 500px;
+    height: 29px;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 45px;
+    left: 230px;
+   
+ }
+ .clients p{
+    
+    position: absolute; 
+    width: 924px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    left: 58px;
+    top:140px;
+    padding-top: 45px;
+ }
+
+
+ .clients .comment{
+    position: absolute;
+    width: 56px;
+    height: 16px;
+    left: 459px;
+    top: 252px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFB800;
+ }
+
+ footer{
+    position: absolute; 
+    width: 1026px;
+    height: 96px;
+    left: 214px;
+    top:3829px;
+    color:#ffffff;
+   
+ }
+ .contacts{
+    position: relative;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    max-width: 1026px;
+    height: 76px;
+    flex-wrap: wrap;
+
+
+ }
+ .contacts span{
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 16px;
+   padding-right:28px;
+   color: #FFB800;
+ }
+ .contacts p{
+   display: flex;
+   align-items: center;
+ }
+
+ .e-mail{
+   position: absolute;
+   left: 6.63%;
+   right: 69.59%;
+   bottom: 78%;
+   display: flex;
+   align-items: center;
+   color: #FFFFFF;
+
+ }
+ .e-mail span{
+   display: flex;
+   align-items: center;
+   text-align: right;
+ }
+ .adress{
+    position: absolute;
+    left: 6.63%;
+    right: 68.23%;
+    top: 66.58%;
+    bottom: 18.42%;
+ }
+ 
+ .adress span{
+   display: flex;
+   align-items: center;
+   text-align: left;
+ }
+ .telephones{
+   position: absolute;
+   left: 40.42%;
+   right: 51.93%;
+   top: 1.59%;
+   bottom: 66.92%;
+   width:215px;
+   height:57px;
+   
+ }
+ .telephones span{
+   display: flex;
+   align-items: center;
+   text-align: right;
+   position: absolute;
+   right: 51.93%;
+   top: 0%;
+
+ }
+ .telephones .numbers{
+    position: absolute;
+    left: 50%;
+    right: 37.52%;
+    top: 2%;
+    bottom: 15.79%;
+   width:128px;
+   height:57px;
+   
+ }
+ .numbers a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+ }
+ .accounts{
+    position: absolute;
+    left: 76.32%;
+    right: 8.87%;
+    top: 42.11%;
+    bottom: 26.32%;
+    width:160px;
+    height:55px;
+ }
+ .accounts span{
+   display: flex;
+   align-items: center;
+   text-align: right;
+   position: absolute;
+   bottom: 90%;
+   height:55px;
+ }
+ .icons{
+   position: absolute;
+   display: flex;
+   align-items: center;
+   text-align: center;    
+  
+ }
+
+ .icons img{
+   padding-right:24px;
+ }
+
+
+ @media(max-width:1400px){
+   .container{
+       max-width:95%;
+   }
+   .header-nav{
+      left:63px;
+   }
+   .form{
+      left:662px;
+   }
+   .travel p{
+      padding-right:5px;
+   }
+   .statistic{
+      width: 100%;
+   }
+   footer{
+      left:0px;
+   }
+
+}
+@media(max-width:1200px){
+   .container{
+      max-width:95%;
+  }
+  .header-nav{
+     left:30px;
+  }
+  .header-nav li{
+     margin-right: 19px;
+     font-size: 14px;
+     line-height: 24px;
+  }
+  .header-nav .language {
+     left:230px;
+  }
+  .header-nav li:last-child {
+   padding: 10px 20px;
+  }
+  .logo{
+     width:173px;
+     height:45px;
+  }
+  h1{
+     font-size:36px;
+     max-width:50%;
+  }
+  .name p{
+     font-size:16px;
+  }
+  .quick-search {
+   padding: 40px 30px 40px 30px;
+  }
+  .form{
+     width:34.5%;
+  }
+     
+  input[type="search"] {
+   width: 270px;
+  }
+  .text input[type="search"] {
+   width: 121px;
+   }
+   .custom {
+      width: 270px;
+   }
+   .found{
+      width: 270px;
+   }
+   .check{
+      width: 270px;
+   }
+   .name{
+      max-width: 50%;
+   }
+   .why{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .describe{
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 28px;
+      max-width: 246px;
+
+     
+   }
+   .action{
+      justify-content: space-around;
+      max-width: 95%;
+   }
+   .view-all {
+      top:1450px;
+      left:425px;
+   }
+   .gradient-st {
+      width: 100%;
+   }
+   .statistic{
+      top:2689px;
+      width: 100%;
+   }
+   .about{
+      font-size: 18px;;
+   }
+   .blog{
+      width:100%;
+      top:1990px;
+      flex-wrap: wrap;
+      justify-content:center;
+   }
+   .places{
+      max-width: 44%;
+   }
+   .travel-bloger{
+      max-width: 24%;
+   }
+   .travel-bloger h3{
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      padding: 10px;
+   }
+   .travel-bloger p {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 10px;
+    padding-top: 0px;
+}
+   .norway{
+      max-width: 24%;
+      
+   }
+   .norway h3{
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      padding: 10px;
+   }
+   .norway p {
+      font-size: 12px;
+      line-height: 16px;
+      padding: 10px;
+      padding-top: 0px;
+  }
+   .blog img{
+      max-width: 100%;
+   }
+  .blog h2{
+     left:420px;
+  }
+  .places .october {
+     top:215px;
+     left:187px;
+  }
+
+  .blog .viewall {
+   left: 400px;
+  }
+
+   .clients{
+      top:2800px;
+      left:0px;
+      font-size: 19px;
+      line-height: 24px;
+   }
+
+   .clients p {
+      left:0px;
+      font-size: 19px;
+      line-height: 24px;
+   }
+
+   footer{
+      top:4329px;
+      width:100%;
+   }
+   .contacts{
+      font-size: 11px;
+      line-height: 14px;
+      width: 100%;
+   }
+   @media(max-width:1024px){
+      .toggle{
+         display: block;
+         position: fixed;
+         border-radius: 50%;
+         width:50px;
+         height:20px;
+         top: 65px;
+         right: 70px;
+         background-color:#FFB800;
+      }
+
+      nav{
+          display: none;
+      }
+      .header-nav .language {
+         left: 350px;
+     }
+
+     h1{
+      font-size:33px;
+      max-width:40%;
+     }
+   
+  .name p{
+     font-size:16px;
+     max-width:40%;
+     line-height: 24px;
+  }
+
+  .form {
+   left: 450px;
+   top:220px;
+   width: 40.5%;
+}
+
+input[type="search"] {
+    width: 260px;
+   } 
+
+   .quick-search {
+      padding: 10px 0px 0px 20px;
+     }
+
+     .text input[type="search"] {
+      width: 119px;
+   }
+
+   .custom {
+      width: 260px;
+   }
+
+   .check {
+      width: 260px;
+   }
+
+   .found{
+      width: 260px;
+   }
+
+   .describe{
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 24px;
+      max-width: 246px;
+}
+
+.action{
+   justify-content: none;
+}
+
+.action img {
+   width: 100%;
+   height: 50%;
+   }
+
+   .travel {
+      width: 45%;
+      margin-right: 5px;
+   }
+
+   .travel p {
+      padding-left: 15px;
+      font-size: 12px;
+      line-height: 16px;
+   }
+
+   .travel .unicum {
+      padding-left: 15px;
+      font-size: 12px;
+      line-height: 16px;
+   }
+
+   .view-all {
+      left: 225px;
+   }
+
+   .about span {
+      font-size: 58px;
+      line-height: 36px;
+}
+
+.blog h2 {
+   left: 300px;
+}
+
+.places p {
+   height: 50%;
+   left: 17px;
+   top: 49px;
+   font-weight: 500;
+   font-size: 26px;
+   line-height: 20px;
+   }
+   .places .october {
+      top: 200px;
+      left: 107px;
+   }
+   .blog .viewall {
+      left: 300px;
+  }
+  .clients h3 {
+   max-width: 500px;
+   font-size: 28px;
+   line-height: 20px;
+   left: 150px;
+}
+.avatar{
+   left: 352px;
+}
+.clients p{
+   font-size: 12px;
+   line-height: 18px;
+   max-width: 708px;
+}
+.clients .comment {
+   left: 359px;
+   top:200px;
+   font-size: 10px;
+   line-height: 12px;
+}
+.contacts{
+   font-size: 10px;
+   line-height: 10px;
+}
+.e-mail{
+   left:0;
+}
+.adress{
+   left:0;
+}
+}
+
+@media(max-width:768px){
+   .header-nav .language {
+      left: 400px;
+      top: 45px;
+   }
+
+   .toggle{
+      top: 75px;
+    right: 250px;
+   }
+
+   h1{
+      max-width: 100%;
+      top:200px;
+      text-align: center;
+
+   }
+
+   .name p{
+      max-width: 100%;
+      text-align: center;
+      top:288px ;
+   }
+
+   .form {
+      left: 140px;
+      top: 360px;
+      width: 55%;
+   }
+
+   .why{
+      top:854px;
+   }
+
+   .why h2{
+      left: auto;
+      bottom: 225px;
+   }
+
+   .describe {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      max-width: 246px;
+      padding: 10px;
+   }
+   
+   .action img {
+      width: 100%;
+      height: 40%;
+   }
+
+   .travel .price{
+      bottom:270px;
+   }
+
+   .view-all {
+      left: 140px;
+  }
+
+  .about{
+     justify-content: center;
+     font-size: 15px;
+  }
+
+  .about p{
+     margin-right: 15px;
+  }
+
+  .about span {
+   font-size: 40px;
+   padding-bottom: 20px;
+  }
+
+  .places{
+     max-width: 95%
+  }
+
+  .travel-bloger{
+   max-width:45%;
+   margin-right:10px;
+  }
+
+  .norway{
+   max-width:45%;
+  }
+
+  .blog h2{
+     position:static;
+  }
+
+  .places p{
+     top:89px;
+     font-size:30px;
+  }
+
+  .places .october {
+   left:210px;
+  }
+
+  .blog .viewall {
+   left: 170px;
+   top:1090px;
+  }
+
+.clients{
+   top:3200px;
+}
+
+.clients h3{
+    font-size: 24px;
+    left: 0px;
+}
+
+.avatar {
+   left: 202px;
+   background-size: 66px 66px;
+   width: 66px;
+   height: 66px;
+}
+
+.clients p{
+   padding-top: 0px;
+   max-width:505px;
+   font-size: 11px;
+   line-height: 14px;
+   height: auto;
+   text-align: center;
+}
+
+.clients .comment {
+   left: 210px;
+   top: 190px;
+}
+
+.e-mail{
+   position: static;
+}
+
+.contacts span {
+   font-size: 11px;
+   line-height: 10px;
+   padding-right: 16px;
+}
+
+footer{
+   top:4630px;
+   height: auto;
+}
+
+.adress{
+   top:45%;
+}
+
+.telephones{
+   left:30%;
+}
+
+.accounts{
+   top:38%;
+   left:69%;
+}
+
+.icons img{
+   padding-right: 10px;
+}
+}
+
+@media(max-width:576px){
+   .toggle {
+    right: 200px;
+}
+
+.header-nav{
+   top:3px;
+}
+
+   .header-nav .language {
+    left: 0;
+    top: 75px;
+   }
+
+   h1{
+      top:150px;
+   }
+
+   .name p {
+    top: 298px;
+   }
+
+   .form {
+      left: 5px;
+      top: 390px;
+      width: 95%; 
+    height: 300px;
+
+   }
+
+   .why{
+      flex-wrap: wrap;
+      top:800px;
+   }
+
+   .why h2{
+      right:25px;
+      bottom:265px;
+      font-size: 28px;
+      line-height: 32px;
+
+   }
+
+   .describe {
+      margin-bottom: 0;
+      max-width: 40%;
+      font-size: 13px;
+      line-height: 18px;
+      padding: 7px;
+      height: 135px;
+   }
+
+   .describe img{
+      width:60px;
+      height: 60px;
+   }
+
+   h2{
+      font-size: 22px;
+      padding-bottom: 10px;
+   }
+
+   .travel{
+      width: 90%;
+   }
+
+   .view-all {
+      left: 80px;
+      top:2810px;
+   }
+
+   .statistic{
+      top:4000px;
+      max-width: 90%;
+   }
+
+   .about{
+     justify-content: center;
+     font-size: 11px;
+  }
+
+  .about p{
+     margin-right: 10px;
+  }
+
+  .about span {
+   font-size: 20px;
+   padding-bottom: 15px;
+  }
+  
+   .blog{
+      top:3200px;
+      justify-content: flex-start;
+   }
+
+   .places{
+      max-width: 100%;
+      height: auto;
+   }
+
+   .places p {
+      top: 89px;
+      font-size: 28px;
+   }
+
+   .places .october {
+      left: 130px;
+  }
+
+  .travel-bloger{
+     height: 450px;
+  }
+
+  .norway{
+   height: 450px; 
+  }
+
+  .blog .viewall {
+   left: 70px;
+   top: 890px;
+}
+
+   .clients{
+      top:4200px;
+   }
+
+   .clients h3{
+      font-size: 18px;
+      max-width: 320px;
+      left:10px;
+   }
+
+   .avatar{
+      left:139px;
+   }
+
+   .clients p{
+      max-width: 320px;;
+   }
+
+   .clients .comment{
+      left:140px;
+   }
+
+   .adress{
+      right:0px;
+   }
+
+   .telephones{
+      height:auto;
+      bottom:0%;
+      left:0%;
+      top:60px;
+   }
+
+   .telephones span{
+      right: 142px;
+   }
+
+   .numbers{
+      left:40%;
+   }
+
+   .accounts{
+      top:160px;
+      left:0px;
+   }
+
+   footer{
+      top:5530px;
+   }
+}
+}
